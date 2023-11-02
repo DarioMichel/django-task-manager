@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Administrador de Tareas</h1>
+        <h2>Bienvenido al administrador de tareas</h2>
+        
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ullam minima nobis modi maiores consequuntur quos maxime. Numquam error voluptate exercitationem veritatis tempore asperiores quo minus repudiandae! Quibusdam, labore pariatur. </p>
+
+        <div class="text-center">
+            <a class="btn btn-primary" href="{% url 'login' %}">
+                Iniciar Sesion
+            </a>
+            <a class="btn btn-primary" href="{% url 'register' %}">
+                Registrame
+            </a>
+        </div>
+    </section>
+</main>
+
+    
+
+{% endblock  %}
+    
+
